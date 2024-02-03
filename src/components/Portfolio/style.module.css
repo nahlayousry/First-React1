@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+   
+}
+
+.over{
+    position: relative;
+   
+}
+.over img{
+    border-radius: 20px;
+
+}
+.decortion
+{
+    background-color: aquamarine;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    transition: .6s opacity;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.over:hover .decortion{
+    opacity: 1;
+}
+.decortion i{
+    font-size: 60px;
+}
